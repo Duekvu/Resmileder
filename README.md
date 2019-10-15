@@ -17,6 +17,19 @@ A Python application that challenge you to be happy for 3 seconds every couple o
 1. Download dataset from here: https://anonfile.com/bdj3tfoeba/data_zip
 2. run ```python start.py --mode train```
 
+### Algorithm
+
+* Use haar cascade to detect faces in each frame of the webcam feed
+
+* resized the region containing the face then passing it to the Convnet
+
+* network outputs a list of softmax scores for the seven classes {Angry", "Disgusted","Fearful", "Happy", "Neutral", "Sad", "Surprised"}
+
+* If the model predict face to be happy, then start count down the time
+
+* Program stop when either user hit q or they "smile/or be happy" for 3 second ( This value can be changed)
+
+
 
 ### Todo:
 
