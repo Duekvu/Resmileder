@@ -33,8 +33,19 @@ A Python application that challenge you to be happy for 3 seconds every couple o
 
 ### Todo:
 
+* Fix bugs user face hang when they are happy lol . 
 * Make the app run transparently, and "wake up" every couple of hours to remind user to smile
 * Add database and flask server to potentially make it to be a web application. 
+
+
+### Demo
+
+* I was sucessfully happy for 3 seconds, the challenge is over
+![Alt Text](ezgif.com-crop.gif)
+
+
+
+
 
 
 
